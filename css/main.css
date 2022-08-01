@@ -10,6 +10,7 @@
     background-color: #e3e4e9;
 }
 
+/* HEADER DEFINITIONS */
 .header {
     display: flex;
     align-items: center;
@@ -52,8 +53,75 @@
     background-color: #203764;
     color: #f6a411;
 }
+
 .nav-menu img{
     width: 28px;
     height: 28px;
     border-radius: 50%;
+}
+
+/* PAGE-MENU DEFINITIONS */
+.page-menu {
+    margin: 5px 0;
+    border-bottom: 1px solid #c3c4c9;
+}
+
+.page-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-menu ul li {
+    padding: 10px;
+}
+
+.page-menu a {
+    padding: 5px;
+    font-size: 15px;
+    color: #203764;
+}
+
+/* PAGE CONTENT DEFINITIONS */
+.profile-content {
+    margin: 10px 5%;
+    display: flex;
+}
+
+.profile {
+    text-align: center;
+    min-width: 350px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #c3c4c9;
+}
+
+.main-content {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content {
+    border: 1px solid #c3c4c9;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content h2, p {
+    padding: 5px;
+    font-size: 15px;
+    color: #203764;
+}
+
+.content h2 {
+    border-bottom: 1px solid #c3c4c9;
 }
