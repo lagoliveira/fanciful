@@ -3,52 +3,57 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     list-style: none;
-    color: black;
+    background-color: #e3e4e9;
 }
 
 .header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 10px 20px;
-    border-bottom: 1px solid #5c5c5c;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: #203764;
 }
 
 .header h1 {
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 30px;
-    letter-spacing: 1.1px;
-}
-
-.search-bar{
-    display: inline;
-    padding: 5px;
-    border: 1px solid black;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: #203764;
+    color: #f6a411;
 }
 
 .nav-menu {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: #203764;
 }
 
 .nav-menu ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin-right: 10px;
+    background-color: #203764;
 }
 
 .nav-menu ul li {
-    padding: 0 10px;
+    padding: 10px;
+    background-color: #203764;
+    color: #f6a411;
 }
 
+.nav-menu a {
+    background-color: #203764;
+    color: #f6a411;
+}
 .nav-menu img{
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
 }
